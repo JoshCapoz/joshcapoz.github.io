@@ -1,0 +1,43 @@
+---
+layout: default
+title: ""
+---
+<section id="about">
+  <h2>About</h2>
+  <p>
+    Three years deep in security operations after starting out on the helpdesk, currently working across
+    100+ client environments as a Cybersecurity Analyst at an MSP in Perth. Day to day that means Microsoft 365
+    security, endpoint protection, incident response, and vulnerability management, plus leading our internal
+    SMB1001 security certification through to Gold (Tier 3). Studying for CompTIA Security+, working toward
+    a long-term move into security governance, risk and compliance.
+  </p>
+  <p>
+    Outside work I run a home lab to keep building hands-on skill beyond the day job. Write-ups below.
+  </p>
+</section>
+
+<section id="posts">
+  <h2>Latest write-ups</h2>
+  <div class="card-grid">
+    {% for post in site.posts limit: 5 %}
+    <div class="card">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | truncatewords: 32 }}</p>
+      {% if post.tags %}
+      <div class="tag-row">
+        {% for t in post.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  <p style="margin-top:16px;"><a href="{{ '/blog/' | relative_url }}">See all write-ups &rarr;</a></p>
+</section>
+
+<section id="now">
+  <h2>Currently</h2>
+  <p>
+    Working through CompTIA Security+ (on track for October 2026), and slowly reading into NIST CSF and the
+    ACSC Essential 8 alongside the SMB1001 work. New write-ups go up on the blog as the home lab grows.
+  </p>
+</section>

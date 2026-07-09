@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Blog"
+permalink: /blog/
+---
+<h2>All write-ups</h2>
+<div class="card-grid">
+  {% for post in site.posts %}
+  <div class="card">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p class="meta" style="margin-bottom:8px;">{{ post.date | date: "%-d %B %Y" }}</p>
+    <p>{{ post.excerpt | strip_html | truncatewords: 32 }}</p>
+    {% if post.tags %}
+    <div class="tag-row">
+      {% for t in post.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

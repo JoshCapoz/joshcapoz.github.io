@@ -1,0 +1,16 @@
+title: Joshua Capozzi
+description: >-
+  Cybersecurity Analyst in Perth, WA. Security operations, Microsoft 365 security,
+  GRC, and a self-built home lab.
+github_username: JoshCapoz
+url: "https://joshcapozzi.com"
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - README.md
