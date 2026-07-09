@@ -14,3 +14,4 @@ plugins:
 
 exclude:
   - README.md
+  - templates
