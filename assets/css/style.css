@@ -88,18 +88,18 @@ a:hover { text-decoration: underline; }
 /* Hero */
 .hero {
   position: relative;
-  padding: 72px 0 56px;
+  padding: 32px 0 40px;
   overflow: hidden;
 }
 
 .hero-glow {
   position: absolute;
-  top: -140px;
+  top: -60px;
   left: 50%;
   transform: translateX(-50%);
-  width: 640px;
-  height: 420px;
-  background: radial-gradient(closest-side, rgba(79,209,197,0.16), rgba(31,56,100,0.10) 60%, transparent 80%);
+  width: 520px;
+  height: 260px;
+  background: radial-gradient(closest-side, rgba(79,209,197,0.18), rgba(31,56,100,0.10) 60%, transparent 80%);
   filter: blur(10px);
   pointer-events: none;
   z-index: 0;
