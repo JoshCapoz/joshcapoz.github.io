@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-07-09-test-file.md",
+                "file": "_posts/2026-07-09-rebuilding-the-homelab-architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-09-test-file"
+              "title": "2026-07-09-rebuilding-the-homelab-architecture"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2026-07-09-test-file.md",
+                "file": "_posts/2026-07-09-rebuilding-the-homelab-architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-07-09-test-file"
+              "title": "Backlinks for 2026-07-09-rebuilding-the-homelab-architecture"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2026-07-09-test-file.md",
+                "file": "_posts/2026-07-09-rebuilding-the-homelab-architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2026-07-09-test-file"
+              "title": "Outgoing links from 2026-07-09-rebuilding-the-homelab-architecture"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2026-07-09-test-file.md",
+                "file": "_posts/2026-07-09-rebuilding-the-homelab-architecture.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-07-09-test-file"
+              "title": "Outline of 2026-07-09-rebuilding-the-homelab-architecture"
             }
           }
         ]
@@ -181,14 +181,23 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "fb240e1a54da4598",
   "lastOpenFiles": [
-    "_posts/2026-07-09-leading-smb1001-to-gold-tier-3.md",
-    "_posts/2026-07-09-test-file.md",
+    "_posts/20206.md",
+    "_posts/2026-07-09-rebuilding-the-homelab-architecture.md",
     "_posts/2026-07-09-building-a-segmented-home-lab.md",
+    "_posts/2026-07-09-leading-smb1001-to-gold-tier-3.md",
+    "assets/posts",
+    "assets/Untitled.md",
+    "templates/new post template.md",
+    "templates/New Post Template.md",
+    "templates/New Post Temp.md",
+    "templates",
+    "Untitled.md",
     "Test.md",
     "Untitled.base",
     "Untitled 1.base"
